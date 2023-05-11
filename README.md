@@ -4,9 +4,10 @@
 
 AntProxy – This software is designed for a large number of ASICs. This software solves the problem of low communication efficiency between the mining farm and AntPool, saves bandwidth and stabilizes the connection.
 
-- <b>Dowload link AntProxy v2.1.1:<b> https://github.com/BTC-media/antproxy_tool/releases/download/antproxy_use/antproxy_v2.1.1.zip
-- Setup instructoins: https://github.com/BTC-media/antproxy_tool/blob/master/antproxy-en.pdf
-
+- [Dowload link AntProxy v2.1.1.zip](https://github.com/BTC-media/antproxy_tool/releases/download/antproxy_use/antproxy_v2.1.1.zip)
+------------------------------------
+- [Setup instructoins AntProxy.pdf](https://github.com/BTC-media/antproxy_tool/blob/master/antproxy-en.pdf)
+---------------------------------------
 Note:
 -------
 + It is recommended to use windows 10 64bit to run this software.
