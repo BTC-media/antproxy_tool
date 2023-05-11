@@ -1,4 +1,5 @@
-# AntProxy – Setup Guide for Windows
+# AntProxy is a stratum proxy of AntPool
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/4e865b3c-e61b-4757-8d0a-d5d91563d13d)
 
 AntProxy – This software is designed for a large number of ASICs. This software solves the problem of low communication efficiency between the mining farm and AntPool, saves bandwidth and stabilizes the connection.
