@@ -7,9 +7,10 @@ AntProxy – This software is designed for a large number of ASICs. This softwar
 - Dowload link AntProxy v2.1.1: https://github.com/BTC-media/antproxy_tool/releases/download/antproxy_use/antproxy_v2.1.1.zip
 - Setup instructoins: https://github.com/BTC-media/antproxy_tool/blob/master/antproxy-en.pdf
 
-## Note:
-+ To use this software, please first download it from the Tools web page in AntPool.
+Note:
+-------
 + It is recommended to use windows 10 64bit to run this software.
++ To use this software, please first download it from the Tools web page in AntPool.
 + This software is currently only applicable for BTC/BCH mining.
 
 ## AntProxy configuration requirements:
@@ -36,7 +37,9 @@ Double-click the installation file to run AntProxy_Launcher.exe. Do not close th
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/f0af765c-f39d-4adf-b8cc-4d38d47e9941)
 
 ### Log in to the software web page
-The IP for logging into the software is the local network IP: 3000, for example: http://168.0.0.1:3000. Enter this IP in the address bar of your browser, and then you can log in without a user password. Method of requesting the local network IP: [Press WIN+R key combination to open “Run” and type ipconfig] to query;
+The IP for logging into the software is the local network IP: 3000, for example: http://168.0.0.1:3000. 
+Enter this IP in the address bar of your browser, and then you can log in without a user password. 
+Method of requesting the local network IP: [Press WIN+R key combination to open “Run” and type ipconfig] to query;
 
 ### Software interface and how to add a new proxy
 Interface after logging in:
@@ -125,7 +128,5 @@ Delete: A proxy address cannot be deleted if the proxy’s operating status is T
 
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/124573fb-ee54-4c79-b725-fa96e4e4cd93)
 
-Note:
--------
-+ It is recommended to use windows 10 64bit to run this software.
-+ This software is currently only applicable for BTC/BCH mining.
+- Dowload link AntProxy v2.1.1: https://github.com/BTC-media/antproxy_tool/releases/download/antproxy_use/antproxy_v2.1.1.zip
+- Setup instructoins: https://github.com/BTC-media/antproxy_tool/blob/master/antproxy-en.pdf
