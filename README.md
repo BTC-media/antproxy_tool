@@ -90,6 +90,7 @@ C: Click the icon to view the software guide.
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/93171f46-7877-4050-b4ca-76fcdb17d20a)
 
 ### 4. Proxy Address 
+
 A: Proxy Address: The proxy address to which the miners are connected 
 B: Pool: The address of the pool to which the proxy is connected C: Subaccount Name: The name of the worker set for the proxy 
 D: Hashrate: The real-time hashrate of all the miners connected to this proxy port. 
