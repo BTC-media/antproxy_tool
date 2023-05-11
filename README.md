@@ -17,27 +17,40 @@ AntProxy – This software is designed for a large number of ASICs. This softwar
 # AntProxy instructions
 
 Preparation: changing the system registry.
-
 1. Press WIN+R to open “Run” and type “regedit” to enter the registry
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/68848384-1327-4a23-ba98-f6285c6a0b36)
 
 2. Go to HKEY_LOCAL_MACHINESYSTEM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters. Find the EnableConnectionRateLimiting key in the right pane and change its value to blank.
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/2e41f839-0247-4973-a0c4-838676803d65)
 
 If the EnableConnectionRateLimiting key cannot be found, right-click on an empty location to create a new “string value”, name it “EnableConnectionRateLimiting” and leave the value blank;
-
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/d92ba639-128a-4e00-b2db-28bde18354ae)
 
 Double-click the installation file to run AntProxy_Launcher.exe. Do not close the launch window that appears. Otherwise, the agent will be closed and you won’t be able to access the program’s web page.
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/f0af765c-f39d-4adf-b8cc-4d38d47e9941)
 
-
-
-Log in to the software web page
+## Log in to the software web page
 The IP for logging into the software is the local network IP: 3000, for example: http://168.0.0.1:3000. Enter this IP in the address bar of your browser, and then you can log in without a user password. Method of requesting the local network IP: [Press WIN+R key combination to open “Run” and type ipconfig] to query;
 
-Software interface and how to add a new proxy
+## Software interface and how to add a new proxy
 Interface after logging in:
-
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/bb396ad4-7304-4f6a-ac90-9e592400ebbd)
 
 On the page, click the “+” button on the right side to add the proxy address.
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/74d6f9ea-5536-45f7-bcb5-3965726f304f)
 
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/6aba73e7-aaa1-4bb4-88ca-414c781b368a)
+
+Proxy address (port): For example, if the proxy address is 192.168.120.89:3333, then 3333 is the proxy port. You can arbitrarily select four digits from “1000-9999”. If the selected port is occupied by other devices, please try entering a different port number.
+
+Pool: Enter the full address of the pool, for example, the AntPool mining address:
+  + Pool 1: stratum.antpool.com: 3333
+  + Pool 2: stratum.antpool.com: 443
+  + Pool 3: stratum.antpool.com: 25
+Subaccount name: must match the name of the subaccount registered with Antpool.
+Password: Optional, composed of letters and numbers
+Save: After saving the configuration, the proxy address will automatically appear in the proxy list. You need to start the data transfer manually.
+Save and run: save the new proxy address and start the data transfer at the same time.
 
 
 Proxy address (port): For example, if the proxy address is 192.168.120.89:3333, then 3333 is the proxy port. You can arbitrarily select four digits from “1000-9999”. If the selected port is occupied by other devices, please try entering a different port number.
