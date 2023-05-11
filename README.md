@@ -64,16 +64,29 @@ How to check the data on the AntProxy interface
 ## Interface
 
 ### 1. Switching languages (Chinese and English)
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/fb43593a-7b4b-4cb7-85ed-8f75b96fd2ae)
 
 ### 2. Hash rate data:
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/2476f030-4c72-4435-814f-3bed1a629dbc)
 
 Remote hashrate: The hashrate of all miners connected through the proxy Success rate: Success rate of transferring data from the proxy to the pool Hashrate: The real-time hash rate sent by the miners to the proxy Hourly: Average hash rate sent by the miners to the proxy in one hour Daily: Average hash rate sent by miners to the proxy server per day Miners: in green (number of online miners); in white (total number of miners)
 
 ### 3. Data in the graph
 
-A: Worker name set for each proxy port (must match the work name registered in AntPool under the account). Different colors represent different proxy ports. You can check accordingly. B: Click the icon to zoom in on the curve. C: Click the icon to view the software guide.
+A: Worker name set for each proxy port (must match the work name registered in AntPool under the account). Different colors represent different proxy ports. You can check accordingly. 
+B: Click the icon to zoom in on the curve. 
+C: Click the icon to view the software guide.
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/93171f46-7877-4050-b4ca-76fcdb17d20a)
 
-### 4. Proxy Address A: Proxy Address: The proxy address to which the miners are connected B: Pool: The address of the pool to which the proxy is connected C: Subaccount Name: The name of the worker set for the proxy D: Hashrate: The real-time hashrate of all the miners connected to this proxy port. E: Miners: The number of all miners connected to this proxy port. F: Success Rate: Success rate of transferring data from the proxy to the pool G: Status: “Transmit” and “Disconnected”. J: Actions: “Edit”, “Delete”, “Enable” and “Disable”.
+### 4. Proxy Address 
+A: Proxy Address: The proxy address to which the miners are connected 
+B: Pool: The address of the pool to which the proxy is connected C: Subaccount Name: The name of the worker set for the proxy 
+D: Hashrate: The real-time hashrate of all the miners connected to this proxy port. 
+E: Miners: The number of all miners connected to this proxy port. 
+F: Success Rate: Success rate of transferring data from the proxy to the pool 
+G: Status: “Transmit” and “Disconnected”. 
+J: Actions: “Edit”, “Delete”, “Enable” and “Disable”.
+![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/00ce4051-35fb-430c-bf0c-c2ab14deec1b)
 
 ### 5. Features of a proxy address
 
