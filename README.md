@@ -20,15 +20,19 @@ AntProxy – This software is designed for a large number of ASICs. This softwar
 
 ### Preparation: changing the system registry.
 1. Press WIN+R to open “Run” and type “regedit” to enter the registry
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/68848384-1327-4a23-ba98-f6285c6a0b36)
 
 2. Go to HKEY_LOCAL_MACHINESYSTEM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters. Find the EnableConnectionRateLimiting key in the right pane and change its value to blank.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/2e41f839-0247-4973-a0c4-838676803d65)
 
 If the EnableConnectionRateLimiting key cannot be found, right-click on an empty location to create a new “string value”, name it “EnableConnectionRateLimiting” and leave the value blank;
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/d92ba639-128a-4e00-b2db-28bde18354ae)
 
-Double-click the installation file to run AntProxy_Launcher.exe. Do not close the launch window that appears. Otherwise, the agent will be closed and you won’t be able to access the program’s web page.
+Double-click the installation file to run AntProxy_Launcher.exe. Do not close the launch window that appears. Otherwise, the agent will be closed and you won’t be able to access the program’s web page
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/f0af765c-f39d-4adf-b8cc-4d38d47e9941)
 
 ### Log in to the software web page
@@ -36,9 +40,11 @@ The IP for logging into the software is the local network IP: 3000, for example:
 
 ### Software interface and how to add a new proxy
 Interface after logging in:
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/bb396ad4-7304-4f6a-ac90-9e592400ebbd)
 
 On the page, click the “+” button on the right side to add the proxy address.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/74d6f9ea-5536-45f7-bcb5-3965726f304f)
 
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/6aba73e7-aaa1-4bb4-88ca-414c781b368a)
@@ -63,10 +69,12 @@ How to check the data on the AntProxy interface
 
 ## Interface
 
-### 1. Switching languages (Chinese and English)
+### 1. Switching languages (Chinese and English
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/fb43593a-7b4b-4cb7-85ed-8f75b96fd2ae)
 
 ### 2. Hash rate data:
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/2476f030-4c72-4435-814f-3bed1a629dbc)
 
 Remote hashrate: The hashrate of all miners connected through the proxy Success rate: Success rate of transferring data from the proxy to the pool Hashrate: The real-time hash rate sent by the miners to the proxy Hourly: Average hash rate sent by the miners to the proxy in one hour Daily: Average hash rate sent by miners to the proxy server per day Miners: in green (number of online miners); in white (total number of miners)
@@ -86,19 +94,23 @@ E: Miners: The number of all miners connected to this proxy port.
 F: Success Rate: Success rate of transferring data from the proxy to the pool 
 G: Status: “Transmit” and “Disconnected”. 
 J: Actions: “Edit”, “Delete”, “Enable” and “Disable”.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/00ce4051-35fb-430c-bf0c-c2ab14deec1b)
 
 ### 5. Features of a proxy address
 
-By clicking on the corresponding proxy address, you can see all the miners connected to that address, with the status: All/Online/Not Online/Not Successful.
+By clicking on the corresponding proxy address, you can see all the miners connected to that address, with the status: All/Online/Not Online/Not Successful
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/f6e8897d-f468-46ec-90cf-4be37a36df12)
 
 By clicking on the icon, you can see a graph.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/7409f71f-5ae5-4ce3-8b8e-2253782138d3)
 
 Click “ANTProxy” in the upper left corner to return to the home page.
 
 ### 6. Settings
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/5e195a75-e594-4f73-8461-5c63ad5290a2)
 
 Hover your mouse over the Proxy address you want to configure, options will appear: “Edit”, “Delete”, “Edit, Delete, Enable, and Disable.
@@ -106,9 +118,11 @@ Hover your mouse over the Proxy address you want to configure, options will appe
 Enabled: After configuring the proxy address, swipe the mouse over the proxy address, the enable button will be displayed (green icon), click the “Enable” button to start data transfer to the mining pool.
 Disconnected: move the mouse over the operating status icon (circle status), it will be displayed as “Disconnect” button (red icon), click “Disconnect” button to stop proxy data transmission.
 Sudden interruption of normal proxy data transmission will lead to loss of earnings.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/edc0f2d3-a216-4fcd-bee2-27e99d30860a)
 
 Delete: A proxy address cannot be deleted if the proxy’s operating status is Transmit or Enable; first click Disable to stop transmission, then you can continue the delete operation.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/124573fb-ee54-4c79-b725-fa96e4e4cd93)
 
 Note:
