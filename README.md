@@ -1,4 +1,4 @@
-# AntProxy is a stratum proxy of AntPool
+# AntProxy Tool
 
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/4e865b3c-e61b-4757-8d0a-d5d91563d13d)
 
