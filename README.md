@@ -16,4 +16,85 @@ AntProxy – This software is designed for a large number of ASICs. This softwar
 + for less than 10,000 miners the recommended configurations are as follows: CPU i5 or higher, more than 8G memory space, windows 10 system
 + Linux version is recommended for more than 10,000 miners
 
+# AntProxy instructions
+
+Preparation: changing the system registry.
+
+1. Press WIN+R to open “Run” and type “regedit” to enter the registry
+
+2. Go to HKEY_LOCAL_MACHINESYSTEM\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters. Find the EnableConnectionRateLimiting key in the right pane and change its value to blank.
+
+If the EnableConnectionRateLimiting key cannot be found, right-click on an empty location to create a new “string value”, name it “EnableConnectionRateLimiting” and leave the value blank;
+
+
+Double-click the installation file to run AntProxy_Launcher.exe. Do not close the launch window that appears. Otherwise, the agent will be closed and you won’t be able to access the program’s web page.
+
+
+
+Log in to the software web page
+The IP for logging into the software is the local network IP: 3000, for example: http://168.0.0.1:3000. Enter this IP in the address bar of your browser, and then you can log in without a user password. Method of requesting the local network IP: [Press WIN+R key combination to open “Run” and type ipconfig] to query;
+
+Software interface and how to add a new proxy
+Interface after logging in:
+
+
+On the page, click the “+” button on the right side to add the proxy address.
+
+
+
+Proxy address (port): For example, if the proxy address is 192.168.120.89:3333, then 3333 is the proxy port. You can arbitrarily select four digits from “1000-9999”. If the selected port is occupied by other devices, please try entering a different port number.
+Pool: Enter the full address of the pool, for example, the AntPool mining address:
++ Pool 1: stratum.antpool.com: 3333
++ Pool 2: stratum.antpool.com: 443
++ Pool 3: stratum.antpool.com: 25
+
+Subaccount name: must match the name of the subaccount registered with Antpool.
+Password: Optional, composed of letters and numbers
+Save: After saving the configuration, the proxy address will automatically appear in the proxy list. You need to start the data transfer manually.
+Save and run: save the new proxy address and start the data transfer at the same time.
+Miner configuration
+After configuring the proxy port, you can start configuring the miners. For example, if the proxy port is: 192.168.120.89:3335.
+
+Then the backstage URL of the miner can be configured as shown in the screenshot below. Once configuration is complete, click “save and run”.
+
+
+How to check the data on the AntProxy interface
+
+# Interface
+
+1. Switching languages (Chinese and English)
+
+2. Hash rate data:
+
+Remote hashrate: The hashrate of all miners connected through the proxy Success rate: Success rate of transferring data from the proxy to the pool Hashrate: The real-time hash rate sent by the miners to the proxy Hourly: Average hash rate sent by the miners to the proxy in one hour Daily: Average hash rate sent by miners to the proxy server per day Miners: in green (number of online miners); in white (total number of miners)
+
+3. Data in the graph
+
+A: Worker name set for each proxy port (must match the work name registered in AntPool under the account). Different colors represent different proxy ports. You can check accordingly. B: Click the icon to zoom in on the curve. C: Click the icon to view the software guide.
+
+4.Proxy Address A: Proxy Address: The proxy address to which the miners are connected B: Pool: The address of the pool to which the proxy is connected C: Subaccount Name: The name of the worker set for the proxy D: Hashrate: The real-time hashrate of all the miners connected to this proxy port. E: Miners: The number of all miners connected to this proxy port. F: Success Rate: Success rate of transferring data from the proxy to the pool G: Status: “Transmit” and “Disconnected”. J: Actions: “Edit”, “Delete”, “Enable” and “Disable”.
+
+5. Features of a proxy address
+
+By clicking on the corresponding proxy address, you can see all the miners connected to that address, with the status: All/Online/Not Online/Not Successful.
+
+By clicking on the icon, you can see a graph.
+
+Click “ANTProxy” in the upper left corner to return to the home page.
+
+6. Settings
+
+Hover your mouse over the Proxy address you want to configure, options will appear: “Edit”, “Delete”, “Edit, Delete, Enable, and Disable.
+
+Enabled: After configuring the proxy address, swipe the mouse over the proxy address, the enable button will be displayed (green icon), click the “Enable” button to start data transfer to the mining pool.
+Disconnected: move the mouse over the operating status icon (circle status), it will be displayed as “Disconnect” button (red icon), click “Disconnect” button to stop proxy data transmission.
+Sudden interruption of normal proxy data transmission will lead to loss of earnings.
+
+Delete: A proxy address cannot be deleted if the proxy’s operating status is Transmit or Enable; first click Disable to stop transmission, then you can continue the delete operation.
+
+Note:
+-------
++ It is recommended to use windows 10 64bit to run this software.
++ This software is currently only applicable for BTC/BCH mining.
+
 ![image](https://github.com/BTC-media/antproxy_tool/assets/71077949/e1c79f84-040c-4b3c-ac18-007ff459973d)
